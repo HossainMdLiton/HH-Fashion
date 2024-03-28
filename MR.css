@@ -54,7 +54,7 @@ background-color: gainsboro;
 }
 /* Header Style */
 .header{
-  background:url("./Images/img_mountains.jpg");
+  background:url("./img_5terre.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
