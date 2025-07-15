@@ -6,90 +6,287 @@
     <link rel="stylesheet" href="./MR.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>SITI HHUDA</title>
-    <style>
-      .header {
-        background: url('https://images.unsplash.com/photo-1621844644371-9ed885cd6db9?auto=format&fit=crop&w=1350&q=80') center center/cover no-repeat;
-        height: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-      }
-      .header h1 {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        border-radius: 10px;
-      }
-    </style>
   </head>
   <body>
     <div class="wrapper">
-      <div class="navbar"> ... </div>
+      <!-- Navbar -->
+      <div class="navbar">
+            <div class="d-flex">
+                <li>
+                <a href="#" class="logo">
+                 <span class="special">HH </span> Fashion
+                </a>
+                </li>
+                <ul class="menu">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Team">Team</a>             
+                    </li>                
+                    
+                  </ul>
+                <ul class="Customer">
+                <li><a href="#">Loggin</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+      <!-- Header -->
       <header class="header">
         <div class="wrapper-title">
-          <h1><span class="hh-title">HH</span> <span class="fashion-title">Fashion Shop</span></h1>
+          <h1>
+            <span class="hh-title">HH</span>
+            <span class="fashion-title">Fashion Shop </span>
+          </h1>
         </div>
       </header>
+      <!-- Page Content -->
       <main class="main-content">
-        <section class="container" id="projects">
-          <h2 class="section-title">Projects</h2>
-          <div class="d-grid">
-            <!-- 8 Islamic Men's Fashion Images -->
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1598032895398-9fcb5a5dce10?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 1" /><p>Kurta Set</p><h4>RM120</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1608374202260-83d3dbf2e7d5?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 2" /><p>Thobe</p><h4>RM150</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1549921296-3a408fc7083a?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 3" /><p>White Robe</p><h4>RM130</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1617734876643-fbabcbf70ca7?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 4" /><p>Emirati Style</p><h4>RM140</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1621421301296-822a3e5cfe29?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 5" /><p>Shalwar Kameez</p><h4>RM110</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1615180963051-d5eb7aeaa6ce?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 6" /><p>Elegant Kurta</p><h4>RM115</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1601455765248-2981cde22f46?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 7" /><p>Brown Thobe</p><h4>RM125</h4><button class="buy">Buy Now</button></div>
-            <div class="house-card"><img src="https://images.unsplash.com/photo-1622791747939-91cf6a95a720?auto=format&fit=crop&w=600&h=600&q=80" alt="Islamic Man 8" /><p>Black Jubba</p><h4>RM135</h4><button class="buy">Buy Now</button></div>
-          </div>
+        <!-- Project section -->
+            <section class="container"  id="projects">
+                 <h2 class="section-title">Projects</h2>
+                <!-- grid cards -->
+                <div class="d-grid">
+                    <div class="house-card">
+                        <img src="https://fr.pinterest.com/pin/404268504030322235/" alt="Modest Fashion 1"
+       style="width: 23%; border-radius: 8px; object-fit: cover;">
+                        <p>Purda</p>
+                        <h4>Price: RM100</h4>
+                        <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+                <img src="https://medium.com/@qasralameera1/modesty-meets-fashion-exploring-the-allure-of-islamic-clothing-for-women-f253f06c11b1?source=user_profile---------1----------------------------"
+       alt="Modest Fashion 2"
+       style="width: 23%; border-radius: 8px; object-fit: cover;">
 
-          <!-- Team Section -->
-          <div class="team" id="team">
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+                <img src="https://fr.pinterest.com/pin/233061349447902167/" alt="Modest Fashion 3"
+       style="width: 23%; border-radius: 8px; object-fit: cover;">
+  
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+              <img src="https://www.artizara.com/collections/stylish-womens-modest-islamic-muslim-muslimah-clothing"
+       alt="Modest Fashion 4"
+       style="width: 23%; border-radius: 8px; object-fit: cover;">
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+              <img src="./img_5terre.jpg" alt="img" />
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+              <img src="./img_5terre.jpg" alt="img" />
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+              <img src="./img_5terre.jpg" alt="img" />
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="house-card">
+              <img src="./img_5terre.jpg" alt="img" />
+              <p>Purda</p>
+              <h4>Price: RM100</h4>
+              <button class="buy">Buy Now</button>
+                    </div>
+                </div>
+                <!-- About Section -->
+                <div class="about" id="about">
+                    <h2 class="section-title">About</h2>
+                    <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+                    laboriosam saepe atque praesentium magnam sit vero rem modi
+                    dignissimos quo velit architecto molestias deleniti, in deserunt
+                    ut incidunt et corporis?
+                     </p>
+                </div>
+                <!-- Team Section -->
+                <div class="team" id="team">
             <h2 class="section-title">Our Team</h2>
             <div class="d-grid">
-              <!-- 8 Islamic men for team -->
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1600743883319-6ec2bfe23e03?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 1" /><div class="card-content"><h1>Ali Khan</h1><h3>Founder</h3><p>Experienced Islamic fashion designer with 15+ years of work.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 2" /><div class="card-content"><h1>Omar Farooq</h1><h3>Creative Lead</h3><p>Specialist in Middle Eastern thobe collections.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1619603361750-0ef4cb2ffb4d?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 3" /><div class="card-content"><h1>Mohamed A.</h1><h3>Stylist</h3><p>Focused on seasonal trends in Islamic menswear.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 4" /><div class="card-content"><h1>Yusuf Hamid</h1><h3>Production Manager</h3><p>Ensures garment quality and ethical sourcing.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1606851091963-075b2d5d7d9d?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 5" /><div class="card-content"><h1>Bilal S.</h1><h3>Marketing Head</h3><p>Expert in Halal branding and social campaigns.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1590080876047-5c1ee2ff26f5?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 6" /><div class="card-content"><h1>Adnan Malik</h1><h3>Finance</h3><p>Budgeting for Islamic trade events globally.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1607011712411-48e68d9842f0?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 7" /><div class="card-content"><h1>Salman Noor</h1><h3>Web Developer</h3><p>Builds eCommerce platforms for Islamic fashion brands.</p><button>Contact</button></div></div>
-              <div class="team-card"><img src="https://images.unsplash.com/photo-1588692047350-fb574b6c96bb?auto=format&fit=crop&w=600&h=600&q=80" alt="Team 8" /><div class="card-content"><h1>Hassan A.</h1><h3>Operations</h3><p>Oversees logistics and store openings across regions.</p><button>Contact</button></div></div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div class="team-card">
+                <img src="./img_5terre.jpg" alt="img" />
+                <div class="card-content">
+                  <h1>Jhon Doe</h1>
+                  <h3>CEO & Founder</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque autem ut rerum corporis eius ab quasi saepe omnis
+                    adipisci porro recusandae nihil voluptatum earum, laudantium
+                    blanditiis cupiditate, eaque perspiciatis facilis.
+                  </p>
+                  <button>Contact</button>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <!-- Contact Section -->
-          <div class="contact" id="Contact">
-            <h1 class="section-title">Contact</h1>
-            <form> ... </form>
-          </div>
-
-          <!-- Map Section -->
-          <div class="map">
-            <h1 class="section-title">Find us in Google Map</h1>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.198279210571!2d144.56671931541265!3d-37.68871317977153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6ee6b8e4fb5b3%3A0x4f12b6c5f658d2f9!2sWoodgrove%20Shopping%20Centre!5e0!3m2!1sen!2sau!4v1628812048310!5m2!1sen!2sau"
-              width="100%"
-              height="400"
-              style="border:0;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-        </section>
-        <footer class="footer">
-          <p>&copy; Powered By HH Fashion</p>
-        </footer>
-      </main>
+                </div>
+                <!-- Contact Section -->
+                <div class="contact" id="Contact">
+                    <h1 class="section-title">Contact</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                    recusandae adipisci tempora tenetur saepe fuga culpa, nobis minus
+                    rem voluptate magnam! Provident, possimus. Tempore natus, ipsa
+                    fugiat ex nostrum labore!
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Name" required name="Name" />
+                        <input type="email" placeholder="Email" required name="Email" />
+                        <input
+                    type="text"
+                    placeholder="Subject"
+                 required
+                    name="Subject"
+                        />
+                        <input
+                        type="text"
+                        placeholder="Comment"
+                        required
+                        name="Comment"
+                        />
+                        <button class="btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <!-- map section -->
+                <div class="map">
+                    <h1 class="section-title">Find us in google map</h1>
+                    <img src="./img_5terre.jpg" alt="map">
+                </div>
+            </section>
+            <footer class="footer">
+                <p>&Copy; Poweered By HH Fashion</p>
+            </footer>
+        </main>
     </div>
   </body>
 </html>
