@@ -66,17 +66,6 @@ h1, h2, h3, h4, h5, h6{
 .menu li:hover, .logo:hover, .Customer li:hover{
 background-color: gainsboro;
 }
-/* Header Style */
-.header{
-  background:url("./img_5terre.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  display: none;
-  justify-content: center;
-  align-items: center;
-
-}
 .wrapper-title h1{
 font-size: 36px;
 letter-spacing: 4px;
